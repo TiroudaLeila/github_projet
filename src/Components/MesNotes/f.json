@@ -1,0 +1,702 @@
+{
+    "_children": [
+        {
+            "_children": [Array
+            ],
+            "_internalFiberInstanceHandleDEV": [FiberNode
+            ],
+            "_nativeTag": 31425,
+            "viewConfig": [Object
+            ]
+        },
+        {
+            "_children": [Array
+            ],
+            "_internalFiberInstanceHandleDEV": [FiberNode
+            ],
+            "_nativeTag": 31283,
+            "viewConfig": [Object
+            ]
+        }
+    ],
+    "_internalFiberInstanceHandleDEV": {
+        "_debugHookTypes": null,
+        "_debugNeedsRemount": false,
+        "_debugOwner": {
+            "_debugHookTypes": [Array
+            ],
+            "_debugNeedsRemount": false,
+            "_debugOwner": [FiberNode
+            ],
+            "_debugSource": undefined,
+            "actualDuration": 2.9547999873757362,
+            "actualStartTime": 37209947.06974,
+            "alternate": [FiberNode
+            ],
+            "child": [Circular
+            ],
+            "childLanes": 0,
+            "deletions": null,
+            "dependencies": [Object
+            ],
+            "elementType": [Object
+            ],
+            "flags": 1,
+            "index": 0,
+            "key": null,
+            "lanes": 0,
+            "memoizedProps": [Object
+            ],
+            "memoizedState": null,
+            "mode": 2,
+            "pendingProps": [Object
+            ],
+            "ref": [Function anonymous
+            ],
+            "return": [FiberNode
+            ],
+            "selfBaseDuration": 0.2176000028848648,
+            "sibling": null,
+            "stateNode": null,
+            "subtreeFlags": 8389125,
+            "tag": 11,
+            "treeBaseDuration": 2.604699984192848,
+            "type": [Object
+            ],
+            "updateQueue": null
+        },
+        "_debugSource": undefined,
+        "actualDuration": 2.724899984896183,
+        "actualStartTime": 37209947.30474,
+        "alternate": {
+            "_debugHookTypes": null,
+            "_debugNeedsRemount": false,
+            "_debugOwner": [FiberNode
+            ],
+            "_debugSource": undefined,
+            "actualDuration": 4.795899979770184,
+            "actualStartTime": 37233125.88934,
+            "alternate": [Circular
+            ],
+            "child": [FiberNode
+            ],
+            "childLanes": 0,
+            "deletions": null,
+            "dependencies": null,
+            "elementType": "RCTView",
+            "flags": 516,
+            "index": 0,
+            "key": null,
+            "lanes": 0,
+            "memoizedProps": [Object
+            ],
+            "memoizedState": null,
+            "mode": 2,
+            "pendingProps": [Object
+            ],
+            "ref": [Function anonymous
+            ],
+            "return": [FiberNode
+            ],
+            "selfBaseDuration": 0.09439999610185623,
+            "sibling": null,
+            "stateNode": [Circular
+            ],
+            "subtreeFlags": 8388613,
+            "tag": 5,
+            "treeBaseDuration": 2.283999986946583,
+            "type": "RCTView",
+            "updateQueue": null
+        },
+        "child": {
+            "_debugHookTypes": null,
+            "_debugNeedsRemount": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 2.3385999873280525,
+            "actualStartTime": 37209947.38924,
+            "alternate": [FiberNode
+            ],
+            "child": [FiberNode
+            ],
+            "childLanes": 0,
+            "deletions": null,
+            "dependencies": null,
+            "elementType": null,
+            "flags": 0,
+            "index": 0,
+            "key": null,
+            "lanes": 0,
+            "memoizedProps": [Array
+            ],
+            "memoizedState": null,
+            "mode": 2,
+            "pendingProps": [Array
+            ],
+            "ref": null,
+            "return": [Circular
+            ],
+            "selfBaseDuration": 0.05910000205039978,
+            "sibling": [FiberNode
+            ],
+            "stateNode": null,
+            "subtreeFlags": 8388613,
+            "tag": 7,
+            "treeBaseDuration": 2.0424999818205833,
+            "type": null,
+            "updateQueue": null
+        },
+        "childLanes": 0,
+        "deletions": null,
+        "dependencies": null,
+        "elementType": "RCTView",
+        "flags": 516,
+        "index": 0,
+        "key": null,
+        "lanes": 0,
+        "memoizedProps": {
+            "accessibilityActions": undefined,
+            "accessibilityElementsHidden": undefined,
+            "accessibilityHint": undefined,
+            "accessibilityLabel": undefined,
+            "accessibilityLabelledBy": undefined,
+            "accessibilityLanguage": undefined,
+            "accessibilityLiveRegion": undefined,
+            "accessibilityRole": undefined,
+            "accessibilityState": [Object
+            ],
+            "accessibilityValue": [Object
+            ],
+            "accessibilityViewIsModal": undefined,
+            "accessible": true,
+            "children": [Array
+            ],
+            "collapsable": false,
+            "focusable": false,
+            "hasTVPreferredFocus": undefined,
+            "hitSlop": undefined,
+            "importantForAccessibility": undefined,
+            "nativeID": undefined,
+            "nextFocusDown": undefined,
+            "nextFocusForward": undefined,
+            "nextFocusLeft": undefined,
+            "nextFocusRight": undefined,
+            "nextFocusUp": undefined,
+            "onAccessibilityAction": undefined,
+            "onClick": [Function onClick
+            ],
+            "onLayout": undefined,
+            "onResponderGrant": [Function onResponderGrant
+            ],
+            "onResponderMove": [Function onResponderMove
+            ],
+            "onResponderRelease": [Function onResponderRelease
+            ],
+            "onResponderTerminate": [Function onResponderTerminate
+            ],
+            "onResponderTerminationRequest": [Function onResponderTerminationRequest
+            ],
+            "onStartShouldSetResponder": [Function onStartShouldSetResponder
+            ],
+            "pointerEvents": undefined,
+            "style": [Object
+            ],
+            "testID": undefined
+        },
+        "memoizedState": null,
+        "mode": 2,
+        "pendingProps": {
+            "accessibilityActions": undefined,
+            "accessibilityElementsHidden": undefined,
+            "accessibilityHint": undefined,
+            "accessibilityLabel": undefined,
+            "accessibilityLabelledBy": undefined,
+            "accessibilityLanguage": undefined,
+            "accessibilityLiveRegion": undefined,
+            "accessibilityRole": undefined,
+            "accessibilityState": [Object
+            ],
+            "accessibilityValue": [Object
+            ],
+            "accessibilityViewIsModal": undefined,
+            "accessible": true,
+            "children": [Array
+            ],
+            "collapsable": false,
+            "focusable": false,
+            "hasTVPreferredFocus": undefined,
+            "hitSlop": undefined,
+            "importantForAccessibility": undefined,
+            "nativeID": undefined,
+            "nextFocusDown": undefined,
+            "nextFocusForward": undefined,
+            "nextFocusLeft": undefined,
+            "nextFocusRight": undefined,
+            "nextFocusUp": undefined,
+            "onAccessibilityAction": undefined,
+            "onClick": [Function onClick
+            ],
+            "onLayout": undefined,
+            "onResponderGrant": [Function onResponderGrant
+            ],
+            "onResponderMove": [Function onResponderMove
+            ],
+            "onResponderRelease": [Function onResponderRelease
+            ],
+            "onResponderTerminate": [Function onResponderTerminate
+            ],
+            "onResponderTerminationRequest": [Function onResponderTerminationRequest
+            ],
+            "onStartShouldSetResponder": [Function onStartShouldSetResponder
+            ],
+            "pointerEvents": undefined,
+            "style": [Object
+            ],
+            "testID": undefined
+        },
+        "ref": [Function anonymous
+        ],
+        "return": {
+            "_debugHookTypes": [Array
+            ],
+            "_debugNeedsRemount": false,
+            "_debugOwner": [FiberNode
+            ],
+            "_debugSource": undefined,
+            "actualDuration": 2.9547999873757362,
+            "actualStartTime": 37209947.06974,
+            "alternate": [FiberNode
+            ],
+            "child": [Circular
+            ],
+            "childLanes": 0,
+            "deletions": null,
+            "dependencies": [Object
+            ],
+            "elementType": [Object
+            ],
+            "flags": 1,
+            "index": 0,
+            "key": null,
+            "lanes": 0,
+            "memoizedProps": [Object
+            ],
+            "memoizedState": null,
+            "mode": 2,
+            "pendingProps": [Object
+            ],
+            "ref": [Function anonymous
+            ],
+            "return": [FiberNode
+            ],
+            "selfBaseDuration": 0.2176000028848648,
+            "sibling": null,
+            "stateNode": null,
+            "subtreeFlags": 8389125,
+            "tag": 11,
+            "treeBaseDuration": 2.604699984192848,
+            "type": [Object
+            ],
+            "updateQueue": null
+        },
+        "selfBaseDuration": 0.06629999727010727,
+        "sibling": null,
+        "stateNode": [Circular
+        ],
+        "subtreeFlags": 8388613,
+        "tag": 5,
+        "treeBaseDuration": 2.3870999813079834,
+        "type": "RCTView",
+        "updateQueue": null
+    },
+    "_nativeTag": 31285,
+    "viewConfig": {
+        "Commands": {
+            "hotspotUpdate": 1,
+            "setPressed": 2
+        },
+        "NativeProps": {
+            "accessibilityActions": "Array",
+            "accessibilityCollection": "Map",
+            "accessibilityCollectionItem": "Map",
+            "accessibilityHint": "String",
+            "accessibilityLabel": "String",
+            "accessibilityLabelledBy": "mixed",
+            "accessibilityLiveRegion": "String",
+            "accessibilityRole": "String",
+            "accessibilityState": "Map",
+            "accessibilityValue": "Map",
+            "accessible": "boolean",
+            "alignContent": "String",
+            "alignItems": "String",
+            "alignSelf": "String",
+            "aspectRatio": "number",
+            "backfaceVisibility": "String",
+            "backgroundColor": "Color",
+            "borderBlockColor": "Color",
+            "borderBlockEndColor": "Color",
+            "borderBlockStartColor": "Color",
+            "borderBottomColor": "Color",
+            "borderBottomEndRadius": "number",
+            "borderBottomLeftRadius": "number",
+            "borderBottomRightRadius": "number",
+            "borderBottomStartRadius": "number",
+            "borderBottomWidth": "number",
+            "borderColor": "Color",
+            "borderEndColor": "Color",
+            "borderEndEndRadius": "number",
+            "borderEndStartRadius": "number",
+            "borderEndWidth": "number",
+            "borderLeftColor": "Color",
+            "borderLeftWidth": "number",
+            "borderRadius": "number",
+            "borderRightColor": "Color",
+            "borderRightWidth": "number",
+            "borderStartColor": "Color",
+            "borderStartEndRadius": "number",
+            "borderStartStartRadius": "number",
+            "borderStartWidth": "number",
+            "borderStyle": "String",
+            "borderTopColor": "Color",
+            "borderTopEndRadius": "number",
+            "borderTopLeftRadius": "number",
+            "borderTopRightRadius": "number",
+            "borderTopStartRadius": "number",
+            "borderTopWidth": "number",
+            "borderWidth": "number",
+            "bottom": "mixed",
+            "collapsable": "boolean",
+            "columnGap": "number",
+            "display": "String",
+            "elevation": "number",
+            "end": "mixed",
+            "experimental_layoutConformance": "String",
+            "flex": "number",
+            "flexBasis": "mixed",
+            "flexDirection": "String",
+            "flexGrow": "number",
+            "flexShrink": "number",
+            "flexWrap": "String",
+            "focusable": "boolean",
+            "gap": "number",
+            "hasTVPreferredFocus": "boolean",
+            "height": "mixed",
+            "hitSlop": "mixed",
+            "importantForAccessibility": "String",
+            "justifyContent": "String",
+            "left": "mixed",
+            "margin": "mixed",
+            "marginBottom": "mixed",
+            "marginEnd": "mixed",
+            "marginHorizontal": "mixed",
+            "marginLeft": "mixed",
+            "marginRight": "mixed",
+            "marginStart": "mixed",
+            "marginTop": "mixed",
+            "marginVertical": "mixed",
+            "maxHeight": "mixed",
+            "maxWidth": "mixed",
+            "minHeight": "mixed",
+            "minWidth": "mixed",
+            "nativeBackgroundAndroid": "Map",
+            "nativeForegroundAndroid": "Map",
+            "nativeID": "String",
+            "needsOffscreenAlphaCompositing": "boolean",
+            "nextFocusDown": "number",
+            "nextFocusForward": "number",
+            "nextFocusLeft": "number",
+            "nextFocusRight": "number",
+            "nextFocusUp": "number",
+            "onClick": "boolean",
+            "onClickCapture": "boolean",
+            "onLayout": "boolean",
+            "onMoveShouldSetResponder": "boolean",
+            "onMoveShouldSetResponderCapture": "boolean",
+            "onPointerEnter": "boolean",
+            "onPointerEnterCapture": "boolean",
+            "onPointerLeave": "boolean",
+            "onPointerLeaveCapture": "boolean",
+            "onPointerMove": "boolean",
+            "onPointerMoveCapture": "boolean",
+            "onPointerOut": "boolean",
+            "onPointerOutCapture": "boolean",
+            "onPointerOver": "boolean",
+            "onPointerOverCapture": "boolean",
+            "onResponderEnd": "boolean",
+            "onResponderGrant": "boolean",
+            "onResponderMove": "boolean",
+            "onResponderReject": "boolean",
+            "onResponderRelease": "boolean",
+            "onResponderStart": "boolean",
+            "onResponderTerminate": "boolean",
+            "onResponderTerminationRequest": "boolean",
+            "onShouldBlockNativeResponder": "boolean",
+            "onStartShouldSetResponder": "boolean",
+            "onStartShouldSetResponderCapture": "boolean",
+            "onTouchCancel": "boolean",
+            "onTouchEnd": "boolean",
+            "onTouchMove": "boolean",
+            "onTouchStart": "boolean",
+            "opacity": "number",
+            "overflow": "String",
+            "padding": "mixed",
+            "paddingBottom": "mixed",
+            "paddingEnd": "mixed",
+            "paddingHorizontal": "mixed",
+            "paddingLeft": "mixed",
+            "paddingRight": "mixed",
+            "paddingStart": "mixed",
+            "paddingTop": "mixed",
+            "paddingVertical": "mixed",
+            "pointerEvents": "String",
+            "position": "String",
+            "removeClippedSubviews": "boolean",
+            "renderToHardwareTextureAndroid": "boolean",
+            "right": "mixed",
+            "role": "String",
+            "rotation": "number",
+            "rowGap": "number",
+            "scaleX": "number",
+            "scaleY": "number",
+            "shadowColor": "Color",
+            "start": "mixed",
+            "testID": "String",
+            "top": "mixed",
+            "transform": "Array",
+            "transformOrigin": "Array",
+            "translateX": "number",
+            "translateY": "number",
+            "width": "mixed",
+            "zIndex": "number"
+        },
+        "bubblingEventTypes": {
+            "topChange": [Object
+            ],
+            "topClick": [Object
+            ],
+            "topPointerCancel": [Object
+            ],
+            "topPointerDown": [Object
+            ],
+            "topPointerEnter": [Object
+            ],
+            "topPointerLeave": [Object
+            ],
+            "topPointerMove": [Object
+            ],
+            "topPointerOut": [Object
+            ],
+            "topPointerOver": [Object
+            ],
+            "topPointerUp": [Object
+            ],
+            "topSelect": [Object
+            ],
+            "topTouchCancel": [Object
+            ],
+            "topTouchEnd": [Object
+            ],
+            "topTouchMove": [Object
+            ],
+            "topTouchStart": [Object
+            ]
+        },
+        "directEventTypes": {
+            "topAccessibilityAction": [Object
+            ],
+            "topContentSizeChange": [Object
+            ],
+            "topLayout": [Object
+            ],
+            "topLoadingError": [Object
+            ],
+            "topLoadingFinish": [Object
+            ],
+            "topLoadingStart": [Object
+            ],
+            "topMessage": [Object
+            ],
+            "topMomentumScrollBegin": [Object
+            ],
+            "topMomentumScrollEnd": [Object
+            ],
+            "topScroll": [Object
+            ],
+            "topScrollBeginDrag": [Object
+            ],
+            "topScrollEndDrag": [Object
+            ],
+            "topSelectionChange": [Object
+            ]
+        },
+        "uiViewClassName": "RCTView",
+        "validAttributes": {
+            "accessibilityActions": true,
+            "accessibilityCollection": true,
+            "accessibilityCollectionItem": true,
+            "accessibilityHint": true,
+            "accessibilityLabel": true,
+            "accessibilityLabelledBy": true,
+            "accessibilityLiveRegion": true,
+            "accessibilityRole": true,
+            "accessibilityState": true,
+            "accessibilityValue": true,
+            "accessible": true,
+            "alignContent": true,
+            "alignItems": true,
+            "alignSelf": true,
+            "aspectRatio": true,
+            "backfaceVisibility": true,
+            "backgroundColor": [Object
+            ],
+            "borderBlockColor": [Object
+            ],
+            "borderBlockEndColor": [Object
+            ],
+            "borderBlockStartColor": [Object
+            ],
+            "borderBottomColor": [Object
+            ],
+            "borderBottomEndRadius": true,
+            "borderBottomLeftRadius": true,
+            "borderBottomRightRadius": true,
+            "borderBottomStartRadius": true,
+            "borderBottomWidth": true,
+            "borderColor": [Object
+            ],
+            "borderEndColor": [Object
+            ],
+            "borderEndEndRadius": true,
+            "borderEndStartRadius": true,
+            "borderEndWidth": true,
+            "borderLeftColor": [Object
+            ],
+            "borderLeftWidth": true,
+            "borderRadius": true,
+            "borderRightColor": [Object
+            ],
+            "borderRightWidth": true,
+            "borderStartColor": [Object
+            ],
+            "borderStartEndRadius": true,
+            "borderStartStartRadius": true,
+            "borderStartWidth": true,
+            "borderStyle": true,
+            "borderTopColor": [Object
+            ],
+            "borderTopEndRadius": true,
+            "borderTopLeftRadius": true,
+            "borderTopRightRadius": true,
+            "borderTopStartRadius": true,
+            "borderTopWidth": true,
+            "borderWidth": true,
+            "bottom": true,
+            "collapsable": true,
+            "columnGap": true,
+            "display": true,
+            "elevation": true,
+            "end": true,
+            "experimental_layoutConformance": true,
+            "flex": true,
+            "flexBasis": true,
+            "flexDirection": true,
+            "flexGrow": true,
+            "flexShrink": true,
+            "flexWrap": true,
+            "focusable": true,
+            "gap": true,
+            "hasTVPreferredFocus": true,
+            "height": true,
+            "hitSlop": true,
+            "importantForAccessibility": true,
+            "justifyContent": true,
+            "left": true,
+            "margin": true,
+            "marginBottom": true,
+            "marginEnd": true,
+            "marginHorizontal": true,
+            "marginLeft": true,
+            "marginRight": true,
+            "marginStart": true,
+            "marginTop": true,
+            "marginVertical": true,
+            "maxHeight": true,
+            "maxWidth": true,
+            "minHeight": true,
+            "minWidth": true,
+            "nativeBackgroundAndroid": true,
+            "nativeForegroundAndroid": true,
+            "nativeID": true,
+            "needsOffscreenAlphaCompositing": true,
+            "nextFocusDown": true,
+            "nextFocusForward": true,
+            "nextFocusLeft": true,
+            "nextFocusRight": true,
+            "nextFocusUp": true,
+            "onClick": true,
+            "onClickCapture": true,
+            "onLayout": true,
+            "onMoveShouldSetResponder": true,
+            "onMoveShouldSetResponderCapture": true,
+            "onPointerEnter": true,
+            "onPointerEnterCapture": true,
+            "onPointerLeave": true,
+            "onPointerLeaveCapture": true,
+            "onPointerMove": true,
+            "onPointerMoveCapture": true,
+            "onPointerOut": true,
+            "onPointerOutCapture": true,
+            "onPointerOver": true,
+            "onPointerOverCapture": true,
+            "onResponderEnd": true,
+            "onResponderGrant": true,
+            "onResponderMove": true,
+            "onResponderReject": true,
+            "onResponderRelease": true,
+            "onResponderStart": true,
+            "onResponderTerminate": true,
+            "onResponderTerminationRequest": true,
+            "onShouldBlockNativeResponder": true,
+            "onStartShouldSetResponder": true,
+            "onStartShouldSetResponderCapture": true,
+            "onTouchCancel": true,
+            "onTouchEnd": true,
+            "onTouchMove": true,
+            "onTouchStart": true,
+            "opacity": true,
+            "overflow": true,
+            "padding": true,
+            "paddingBottom": true,
+            "paddingEnd": true,
+            "paddingHorizontal": true,
+            "paddingLeft": true,
+            "paddingRight": true,
+            "paddingStart": true,
+            "paddingTop": true,
+            "paddingVertical": true,
+            "pointerEvents": true,
+            "position": true,
+            "removeClippedSubviews": true,
+            "renderToHardwareTextureAndroid": true,
+            "right": true,
+            "role": true,
+            "rotation": true,
+            "rowGap": true,
+            "scaleX": true,
+            "scaleY": true,
+            "shadowColor": [Object
+            ],
+            "start": true,
+            "style": [Object
+            ],
+            "testID": true,
+            "top": true,
+            "transform": true,
+            "transformOrigin": true,
+            "translateX": true,
+            "translateY": true,
+            "width": true,
+            "zIndex": true
+        }
+    }
+}
