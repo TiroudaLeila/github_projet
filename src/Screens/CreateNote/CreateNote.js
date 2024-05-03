@@ -64,7 +64,7 @@ const CreateNote = ({navigation}) => {
         // rigthIcon={'delete-outline'}
           leftIcon={'arrow-left'} 
         // rigthIconAction={}
-        // leftIconAction={}
+        leftIconAction={() => navigation.goBack()}
         color={'white'}
       />
 

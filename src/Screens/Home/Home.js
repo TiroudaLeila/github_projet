@@ -5,6 +5,9 @@ import Header from '../../Components/Header/Header';
 import AddButton from '../../Components/Header/AddButton';
 import MesNote from '../../Components/MesNotes/MesNote';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { DrawerActions } from '@react-navigation/native';
+import Deconexion from '../../Components/Deconexion';
+import styless from '../CreateNote/styles';
 
 // let DATA = [
 //   {
@@ -26,31 +29,38 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 //   },
 // ];
 
-// const sendMessage = () => {
-//   if(DATA == 0){
-//     <Text 
-//     style={{
-//         fontSize:14,
-//         fontWeight: '400',
-//         color: '#000',
-//         textAlign: 'center',}}>Veuillez enregistrer une nouvelle note en cliquant sur le bouton plus en bas  </Text>
-
-//   }
-
-// }
+//
 
 const Home = ({navigation}) => {
+
+  const logout = async() => {
+    await AsyncStorage.removeItem('token')
+    navigation.navigate('SignUpScreen')
+
+  }
   
   const [filtreDataId, setFiltreDataId] = useState([]);
   const [data, setData] = useState([]);
-  
 
+  // const sendMessage = () => {
+  //     if(data == 0){
+  //       <Text 
+  //       style={{
+  //           fontSize:14,
+  //           fontWeight: '400',
+  //           color: '#000',
+  //           textAlign: 'center',}}>Veuillez enregistrer une nouvelle note en cliquant sur le bouton plus en bas  </Text>
+  //     } 
+        
+  //     }
+    
+   
+  
   useEffect(() => {
     getNotes();
-    // loadNote();
   }, []);
 
-  const setNewDataId = (newDataId) => {
+    const setNewDataId = (newDataId) => {
     setFiltreDataId(newDataId);
   }
 
@@ -79,20 +89,6 @@ const Home = ({navigation}) => {
       // Error retrieving data
     }
   }
-  // const loadNote = async () => {
-  //   try {
-  //     // Récupérer la note depuis AsyncStorage en utilisant son ID
-  //     const savedNote = await AsyncStorage.getItem('notes');
-  //     if (savedNote !== null) {
-  //       const savedNoteParse = JSON.parse(savedNote);
-  //       // Mettre à jour l'état avec la note existante
-  //       setData(savedNoteParse);
-  //     }
-  //   } catch (error) {
-  //     console.error('Error loading note:', error);
-  //   }
-  // };
-
   return (
     <View style={styles.container}>
         <StatusBar backgroundColor={'#CF4C6C'}/>
@@ -101,7 +97,7 @@ const Home = ({navigation}) => {
           rigthIcon={'delete-outline'}
           leftIcon={'menu'} 
           rigthIconAction={deleteNote}
-          // leftIconAction={deleteNote}
+          leftIconAction={() => navigation.dispatch(DrawerActions.openDrawer())}
           color={'white'}
         />
       <Text style={{fontSize:30,textAlign:'center', color:'#000', marginTop:10}}>Toutes Mes Notes</Text>
@@ -121,9 +117,18 @@ const Home = ({navigation}) => {
       }}>
         <AddButton/>
       </TouchableOpacity>
+      <View style={styless.deconnexion} onPress={() =>{
+            navigation.navigate('SignUpScreen')
+          }}>
+      <Deconexion
+        title={'Deconnexion'} 
+        onSubmit={logout}
+      />
+      </View>
+     
     </View>
     
   )
-}
+} 
 
 export default Home

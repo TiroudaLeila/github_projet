@@ -12,6 +12,18 @@ const styless = StyleSheet.create({
         justifyContent:'flex-end',
         marginVertical: 20,
     },
+    deconnexion:{
+        flex: 1,
+        justifyContent:'flex-end',
+        marginVertical: 20,
+        // backgroundColor: 'red'
+    },
+    save:{
+        flex: 1,
+        justifyContent:'flex-end',
+        marginVertical: 40,
+        
+    },
     modifier:{
         flex: 1,
         justifyContent:'flex-end',
